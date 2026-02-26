@@ -1,8 +1,8 @@
-# ❌⭕ Tic Tac Toe LAN Multiplayer
+# ❌⭕ Tic Tac Toe
 
 ![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
 ![SDL2](https://img.shields.io/badge/Library-SDL2-red)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Android-lightgray)
+![ImGui](https://img.shields.io/badge/UI-ImGui-lightgrey)
 
 ## 📦 Supported Platforms
 - **Windows:** `.exe` 
@@ -10,10 +10,11 @@
 
 ---
 
-**Tic Tac Toe LAN Multiplayer** is a cross-platform implementation of the classic game, developed from scratch in C++ using the SDL2 framework. It features a custom modern UI, local network (LAN) multiplayer functionality allowing PC and mobile to play together, and a clean, modular architecture.
+**Tic Tac Toe** is a cross-platform implementation of the classic game, written in C++. The user interface is a hybrid built using SDL2 and ImGui. It features local network (LAN) multiplayer, allowing PC and mobile devices to play together.
 
 ---
 
 ## 📜 Credits & License
-Built using the **[SDL2 Library](https://www.libsdl.org/)** (along with `SDL_image`, `SDL_ttf`, and `SDL_net`).
-Created strictly for **learning purposes** to explore C++ game development and cross-platform networking.
+* Built using the **[SDL2 Library](https://www.libsdl.org/)** (`SDL_image`, `SDL_ttf`, `SDL_net`) and **[Dear ImGui](https://github.com/ocornut/imgui)**.
+* The font used in the application is located in the `assets/fonts/SN_Pro/` directory. Please refer to the specific license file included in that folder for usage rights.
+* Created strictly for **learning purposes**.
