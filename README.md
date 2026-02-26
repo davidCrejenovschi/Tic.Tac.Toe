@@ -19,4 +19,4 @@ It features local network (LAN) multiplayer, meaning you and your friends will a
 ## 📜 Credits & License
 * Built using the **[SDL2 Library](https://www.libsdl.org/)** and **[Dear ImGui](https://github.com/ocornut/imgui)**.
 * The font used in the application is located in the `assets/fonts/SN_Pro/` directory. Please refer to the specific license file included in that folder for usage rights.
-* Created strictly for **learning purposes** (and to force people to hang out on the same Wi-Fi network).
+* Created strictly for **learning purposes**
