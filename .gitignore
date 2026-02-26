@@ -3,6 +3,8 @@ x64/
 x86/
 Debug/
 Release/
+out/
+build/
 *.user
 *.suo
 *.db
@@ -18,3 +20,7 @@ packages/
 *.tlog
 *.log
 *.lastbuildstate
+*.aps
+*.ipch
+*.iobj
+*.ipdb

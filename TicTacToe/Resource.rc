@@ -1,0 +1,5 @@
+#include "winres.h"
+
+IDI_ICON1               ICON                    "res\\icon.ico"
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
