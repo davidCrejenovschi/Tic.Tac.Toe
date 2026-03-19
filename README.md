@@ -76,4 +76,3 @@ Once the compilation is finished, you can launch the game:
     ```bash
     ./TicTacToe
     ```
----
