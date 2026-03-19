@@ -37,7 +37,7 @@ Follow these steps to configure the source code and build the project on your ma
 ### 1. Clone the Repository
 Open your terminal and run:
 ```bash
-git clone [https://github.com/davidCrejenovschi/Tic.Tac.Toe.git](https://github.com/davidCrejenovschi/Tic.Tac.Toe.git)
+git clone https://github.com/davidCrejenovschi/Tic.Tac.Toe.git
 cd Tic.Tac.Toe
 ```
 
