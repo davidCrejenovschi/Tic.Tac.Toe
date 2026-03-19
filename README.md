@@ -1,8 +1,14 @@
 # ❌⭕ Tic Tac Toe
 
-![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
-![SDL2](https://img.shields.io/badge/Library-SDL2-red)
-![ImGui](https://img.shields.io/badge/UI-ImGui-lightgrey)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/36911a16-b68a-4ba0-a645-246c022f2b38" alt="Project Demo">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Library-SDL2-red" alt="SDL2">
+  <img src="https://img.shields.io/badge/UI-ImGui-lightgrey" alt="ImGui">
+</p>
 
 ## 📦 Supported Platforms
 - **Windows:** `.exe` 
@@ -20,3 +26,4 @@ It features local network (LAN) multiplayer, meaning you and your friends will a
 * Built using the **[SDL2 Library](https://www.libsdl.org/)** and **[Dear ImGui](https://github.com/ocornut/imgui)**.
 * The font used in the application is located in the `assets/fonts/SN_Pro/` directory. Please refer to the specific license file included in that folder for usage rights.
 * Created strictly for **learning purposes**
+
