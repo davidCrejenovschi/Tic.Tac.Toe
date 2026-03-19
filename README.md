@@ -36,8 +36,12 @@ Follow these steps to configure the source code and build the project on your ma
 
 ### 1. Clone the Repository
 Open your terminal and run:
+
 ```bash
 git clone https://github.com/davidCrejenovschi/Tic.Tac.Toe.git
+```
+
+```bash
 cd Tic.Tac.Toe
 ```
 
@@ -46,11 +50,17 @@ This project requires the **SDL2** library for graphics and window management. *
 
 * **Windows:** Download the development libraries from the [official SDL2 website](https://www.libsdl.org/) or use a package manager like `vcpkg`. Make sure your compiler (e.g., MinGW or MSVC) can find the SDL2 include and lib folders.
 * **Linux (Ubuntu/Debian):**
+  
     ```bash
     sudo apt-get update
+    ```
+
+    ```bash
     sudo apt-get install libsdl2-dev
     ```
+    
 * **macOS (Homebrew):**
+  
     ```bash
     brew install sdl2
     ```
