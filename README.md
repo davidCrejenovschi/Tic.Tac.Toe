@@ -32,7 +32,7 @@ It features local network (LAN) multiplayer, meaning you and your friends will a
 
 ## 🛠️ Local Development Setup
 
-Follow these steps to configure the source code and build the project on your machine.
+Follow these steps to configure the source code and build the project on your machine using **Visual Studio Code**.
 
 ### 1. Clone the Repository
 Open your terminal and run:
@@ -42,9 +42,9 @@ cd Tic.Tac.Toe
 ```
 
 ### 2. Install Prerequisites (SDL2)
-This project requires the **SDL2** library for graphics and window management. **ImGui** files are included within the source code, but SDL2 must be installed on your system.
+This project requires the **SDL2** library for graphics and window management. **ImGui** files are already included within the source code, but SDL2 must be installed on your system.
 
-* **Windows:** Download the development libraries from the [official SDL2 website](https://www.libsdl.org/) or use a package manager like `vcpkg`.
+* **Windows:** Download the development libraries from the [official SDL2 website](https://www.libsdl.org/) or use a package manager like `vcpkg`. Make sure your compiler (e.g., MinGW or MSVC) can find the SDL2 include and lib folders.
 * **Linux (Ubuntu/Debian):**
     ```bash
     sudo apt-get update
@@ -55,24 +55,24 @@ This project requires the **SDL2** library for graphics and window management. *
     brew install sdl2
     ```
 
-### 3. Build the Project
-If the project uses **CMake**, run the following commands in the root directory:
-```bash
-mkdir build
-cd build
-cmake ..
-cmake --build .
-```
-*(Alternatively, if you are using Visual Studio, open the `.sln` file and build the solution).*
-
-### 4. Run the Executable
-Once the compilation is finished, you can launch the game:
-
-* **Windows:**
+### 3. Setup Visual Studio Code
+1. Install the **C/C++** and **CMake Tools** extensions from the VS Code Marketplace.
+2. Open the project folder in VS Code:
     ```bash
-    .\TicTacToe.exe
+    code .
     ```
-* **Linux / macOS:**
+
+### 4. Configure and Build
+1. Once opened, VS Code should detect the `CMakeLists.txt` file.
+2. Open the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `Cmd+Shift+P` on macOS) and run **CMake: Configure**.
+3. Select your active compiler kit (e.g., GCC, Clang, or MSVC) when prompted.
+4. Click the **Build** button in the bottom blue status bar (or press `F7`).
+
+### 5. Run the Game
+After a successful build, you can start the application directly from VS Code:
+* Click the **Play/Launch** button in the bottom status bar (or press `Shift + F5`).
+* Alternatively, run the generated executable from the integrated terminal:
     ```bash
-    ./TicTacToe
+    ./build/TicTacToe
     ```
+*(Note: On Windows, it might be `.\build\Debug\TicTacToe.exe` depending on your CMake configuration).*
